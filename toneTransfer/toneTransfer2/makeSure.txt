@@ -1,0 +1,20 @@
+install this FIRST before reqs2.txt
+
+pip install --no-deps tfds-nightly==4.9.2.dev202307100045 etils==1.4.0
+pip install matplotlib
+pip install --no-deps tfds-nightly==4.9.2.dev202307100045
+pip install matplotlib
+
+pip install git+https://github.com/marl/crepe.git
+
+
+pip install --use-deprecated=legacy-resolver -r requirements2.txt
+
+
+module purge
+module load cuda11.2/toolkit/11.2.2
+module load cudnn8.1-cuda11.2/8.1.1.33
+
+
+
+
